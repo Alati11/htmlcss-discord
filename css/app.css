@@ -48,16 +48,15 @@ body {
     margin: 15px auto;   
 }
 
-.container-1 {
-   
+.container-1 {  
     width:100%;
 	margin: 0 auto;
     padding: 15px;
-    background-color: #0A238B;
+    
 }  
 
 .container{
-    width:100%;
+    width:100%; 
 	margin: 0 auto;
    
 }
@@ -68,14 +67,14 @@ body {
     background-color:white;
 }
 
-.container-grey{
+.container-grey {
     min-height: 100px;
     padding: 15px;
 	margin: 15px auto;  
     background-color:#D3D3D3;
 }
 
-.container-grey2{
+.container-grey2 {
     min-height: 400px;
     padding: 15px;
 	margin: 15px auto;  
@@ -83,13 +82,11 @@ body {
 
 }
 .col-1 {
-   
     flex-basis: calc((100% / 12) * 10);
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4 );
-    
     background-color: #F6BFCA;
     border: 2px dotted black;
 }
@@ -118,8 +115,16 @@ body {
     padding: 10px;
 	background-color: blue;
 	min-height: 60px;
-   
 }
+.img-hero {
+	
+	background-image: url('./img/jumbo.png');
+	
+	
+}
+
+
+
 
 /*DEBUG*/
 
