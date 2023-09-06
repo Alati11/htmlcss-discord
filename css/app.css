@@ -26,12 +26,10 @@ body {
 }
 
 .row {
-    
     background-image: url('../img/jumbo.png');
     background-size: 100%;
     display: flex;  
     flex-wrap: wrap;
-    
     min-height: 250px;
    
 }
@@ -50,16 +48,15 @@ body {
     margin: 15px auto;   
 }
 
-.container-1 {  
+.hero {  
     width:100%;
 	margin: 0 auto;
- 
+    text-align: center;
 }  
 
 .container{
     width:100%; 
 	margin: 0 auto;
-   
 }
 .conteiner-white {
     min-height: 100px;
@@ -122,13 +119,28 @@ body {
 	background-color:#265EE9;
 	min-height: 60px;
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
 .button{
     color: black;
-    padding: 10px;
-    border-radius: 40%;
+    padding: 0 20px;
+    border-radius: 999px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: white;
+    line-height: 50px;;
+}
+
+.button.button--dark {
+    background-color: black;
+    color: white;
+}
+.title {
+    text-align: center;
+    font-size: 50px
 }
 
 
